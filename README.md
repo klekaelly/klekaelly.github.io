@@ -8,7 +8,7 @@ Navigate to [klekaelly.dev](https://klekaelly.dev/) to get started.
 
 ### Contributing
 
-Since this is a personal portfolio showcasing my work, no open source contributions are necessary. Thanks though.
+No open source contributions are necessary.
 
 ### Author
 
