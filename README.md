@@ -1,1 +1,1 @@
-Navigate to [klekaelly.dev](https://klekaelly.dev/) to get started.
+Navigate to [klekaelly.dev](https://klekaelly.dev/)
