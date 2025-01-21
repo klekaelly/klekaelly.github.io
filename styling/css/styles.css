@@ -1,0 +1,108 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.625rem 0;
+  border-bottom: 0.1875rem solid #cccccc;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Main Container */
+.container {
+  max-width: 50rem;
+  margin: 1.25rem auto;
+  padding: 0.625rem;
+  background-color: #f8f8f8;
+  border: 0.0625rem solid #cccccc;
+}
+
+/* Headings */
+h2 {
+  color: #003366;
+  font-size: 1.125rem;
+  border-bottom: 0.125rem solid #cccccc;
+  padding-bottom: 0.125rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 0.625rem;
+}
+
+/* Paragraphs and Lists */
+p {
+  margin: 0.625rem 0;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0.625rem 0;
+  padding-left: 1.25rem;
+}
+
+ul li {
+  margin-bottom: 0.3125rem;
+}
+
+/* Links */
+a {
+  color: #003366;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  background-color: #003366;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.3125rem 0.625rem;
+  border: 0.0625rem solid #cccccc;
+  font-size: 0.875rem;
+}
+
+.button:hover {
+  background-color: #002244;
+  border-color: #999999;
+}
+
+.intro-text {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text img.profile-picture {
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  margin: 1%;
+  border: 0.0625rem solid #cccccc;
+}
+
+.focus-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.focus-container .column {
+  width: 48%;
+}
