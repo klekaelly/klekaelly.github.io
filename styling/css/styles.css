@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #ffffff;
@@ -5,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  line-height: 1.5; /* Consistent line height */
 }
 
 /* Header */
@@ -31,6 +33,17 @@ header h1 {
 }
 
 /* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2; /* Consistent line height for headings */
+}
+
 h2 {
   color: #003366;
   font-size: 1.125rem;
@@ -44,18 +57,26 @@ h3 {
 }
 
 /* Paragraphs and Lists */
+p,
+ul,
+ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5; /* Consistent line height */
+}
+
 p {
   margin: 0.625rem 0;
-  line-height: 1.5;
 }
 
-ul {
-  margin: 0.625rem 0;
-  padding-left: 1.25rem;
+ul,
+ol {
+  padding-left: 1.25rem; /* Consistent padding for lists */
 }
 
-ul li {
-  margin-bottom: 0.3125rem;
+ul li,
+li {
+  margin-bottom: 0.5rem; /* Consistent margin for list items */
 }
 
 /* Links */
@@ -84,9 +105,11 @@ a:hover {
   border-color: #999999;
 }
 
+/* Intro Text */
 .intro-text {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem; /* Consistent margin */
 }
 
 .intro-text img.profile-picture {
@@ -97,11 +120,56 @@ a:hover {
   border: 0.0625rem solid #cccccc;
 }
 
+/* Focus Container */
 .focus-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem; /* Consistent margin */
 }
 
 .focus-container .column {
   width: 48%;
+}
+
+/* Social Links */
+.socials {
+  margin-top: 1rem;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.3125rem 0.625rem;
+  background-color: #003366;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.0625rem solid #cccccc;
+  font-size: 0.875rem;
+}
+
+.social-link:hover {
+  background-color: #002244;
+  border-color: #999999;
+}
+
+/* Services */
+.services ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.services li {
+  margin-bottom: 0.5rem;
+}
+
+/* FAQ */
+.faq h3 {
+  color: #003366;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.faq p {
+  margin: 0.5rem 0;
 }
