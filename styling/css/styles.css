@@ -173,3 +173,27 @@ a:hover {
 .faq p {
   margin: 0.5rem 0;
 }
+
+/* Testimonials */
+.testimonials {
+  margin-top: 2rem;
+}
+
+.testimonials blockquote {
+  border-left: 0.25rem solid #003366;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  background-color: #f8f8f8; /* Light background color */
+  border: 1px solid #cccccc; /* Subtle border */
+}
+
+.testimonials blockquote:nth-child(even) {
+  background-color: #e8e8e8; /* Slightly darker background for even testimonials */
+}
+
+.testimonials footer {
+  text-align: right;
+  font-size: 0.875rem;
+  color: #666666;
+}
