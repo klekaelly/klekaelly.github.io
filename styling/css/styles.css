@@ -1,58 +1,53 @@
-/* Global Styles */
 body {
-  font-family: Arial, Helvetica, sans-serif, sans-serif; /* Use a more modern font */
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
   background-color: #ffffff;
   color: #000000;
   margin: 0;
   padding: 0;
   font-size: 16px;
-  line-height: 1.5; /* Consistent line height */
+  line-height: 1.5;
 }
 
-/* Header */
 header {
   background-color: #003366;
   color: #ffffff;
   text-align: center;
-  padding: 1rem 0; /* Increase padding for better spacing */
+  padding: 1rem 0;
   border-bottom: 0.1875rem solid #cccccc;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem; /* Increase font size for better readability */
+  font-size: 2rem;
 }
 
-/* Main Container */
 .container {
   max-width: 50rem;
   margin: 1.25rem auto;
-  padding: 1rem; /* Increase padding for better spacing */
+  padding: 1rem;
   background-color: #f8f8f8;
   border: 0.0625rem solid #cccccc;
 }
 
-/* Responsive adjustments */
 @media (max-width: 600px) {
   .container {
-    padding-left: 0.5rem; /* Adjust padding for smaller screens */
-    padding-right: 0.5rem; /* Adjust padding for smaller screens */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .intro-text {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
+    flex-direction: column;
   }
 
   .intro-text img.profile-picture {
-    margin: 0.5rem auto; /* Center image on smaller screens */
+    margin: 0.5rem auto;
   }
 
   .profile-details {
-    padding-left: 0; /* Remove left padding on smaller screens */
+    padding-left: 0;
   }
 }
 
-/* Headings */
 h1,
 h2,
 h3,
@@ -61,28 +56,27 @@ h5,
 h6 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  line-height: 1.2; /* Consistent line height for headings */
+  line-height: 1.2;
 }
 
 h2 {
   color: #003366;
-  font-size: 1.5rem; /* Increase font size for better readability */
+  font-size: 1.5rem;
   border-bottom: 0.125rem solid #cccccc;
   padding-bottom: 0.125rem;
 }
 
 h3 {
-  font-size: 1.25rem; /* Increase font size for better readability */
+  font-size: 1.25rem;
   margin-top: 0.625rem;
 }
 
-/* Paragraphs and Lists */
 p,
 ul,
 ol {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  line-height: 1.5; /* Consistent line height */
+  line-height: 1.5;
 }
 
 p {
@@ -91,15 +85,14 @@ p {
 
 ul,
 ol {
-  padding-left: 1.25rem; /* Consistent padding for lists */
+  padding-left: 1.25rem;
 }
 
 ul li,
 li {
-  margin-bottom: 0.5rem; /* Consistent margin for list items */
+  margin-bottom: 0.5rem;
 }
 
-/* Links */
 a {
   color: #003366;
   text-decoration: underline;
@@ -109,54 +102,70 @@ a:hover {
   text-decoration: none;
 }
 
-/* Button */
 .button {
   display: inline-block;
-  background-color: #00509e; /* Softer blue */
+  background-color: #00509e;
   color: #ffffff;
   text-decoration: none;
-  padding: 0.5rem 1rem; /* Increase padding for better touch target */
-  border: none; /* Remove border */
-  border-radius: 0.25rem; /* Add border radius for smoother edges */
-  font-size: 1rem; /* Increase font size for readability */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-  background-color: #003366; /* Darker blue on hover */
+  background-color: #003366;
 }
 
 /* About Section */
 .intro-text {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row; /* Align items horizontally */
   align-items: flex-start;
   margin-bottom: 1.5rem;
-  padding: 1rem; /* Increase padding for better spacing */
-  background-color: #f8f8f8; /* Match the rest of the page */
-  border: 0.0625rem solid #cccccc; /* Add border to match other sections */
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border: 0.0625rem solid #cccccc;
+}
+
+.profile-picture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem; /* Add margin to the left */
 }
 
 .intro-text img.profile-picture {
   width: 6.25rem; /* 100px */
   height: 6.25rem; /* 100px */
   border-radius: 50%;
-  border: 0.0625rem solid #cccccc; /* Add border to match other elements */
+  border: 0.0625rem solid #cccccc;
   object-fit: cover;
-  margin: 0.5rem 0.5rem 0.5rem 1rem; /* Ensure equal spacing */
+  margin-bottom: 0.25rem; /* Reduce margin below the image */
+}
+
+.intro-text h3.name {
+  color: #003366;
+  font-size: 1rem; /* Smaller font size */
+  font-weight: normal; /* Normal font weight */
+  margin-top: 0.25rem; /* Add margin above the name */
+  margin-bottom: 0; /* Remove margin below the name */
+  text-align: center; /* Center align text */
 }
 
 .profile-details {
   flex: 1;
-  padding-left: 0.625rem; /* Add padding for better spacing */
+  padding-right: 0.625rem;
+  text-align: left; /* Left align text */
 }
 
 .profile-details h3 {
   color: #003366;
-  font-size: 1.25rem; /* Increase font size for better readability */
+  font-size: 1.25rem;
   margin: 0.5rem 0 0.25rem 0;
   padding-bottom: 0.125rem;
-  border-bottom: none; /* Remove underline */
+  border-bottom: none;
 }
 
 .profile-details ul {
@@ -169,7 +178,6 @@ a:hover {
   margin-bottom: 0.375rem;
 }
 
-/* Focus Section */
 .focus-container {
   display: flex;
   justify-content: space-between;
@@ -179,7 +187,6 @@ a:hover {
   width: 48%;
 }
 
-/* Social Links */
 .socials {
   margin-top: 1rem;
 }
@@ -195,7 +202,6 @@ a:hover {
   font-size: 0.875rem;
 }
 
-/* Services */
 .services ul {
   list-style-type: disc;
   padding-left: 1.25rem;
@@ -205,10 +211,9 @@ a:hover {
   margin-bottom: 0.5rem;
 }
 
-/* FAQ */
 .faq h3 {
   color: #003366;
-  font-size: 1.25rem; /* Increase font size for better readability */
+  font-size: 1.25rem;
   margin-top: 1rem;
 }
 
@@ -216,7 +221,6 @@ a:hover {
   margin: 0.5rem 0;
 }
 
-/* Testimonials */
 .testimonials {
   margin-top: 2rem;
 }
@@ -226,12 +230,12 @@ a:hover {
   padding-left: 1rem;
   margin: 1rem 0;
   font-style: italic;
-  background-color: #f8f8f8; /* Light background color */
-  border: 1px solid #cccccc; /* Subtle border */
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
 }
 
 .testimonials blockquote:nth-child(even) {
-  background-color: #e8e8e8; /* Slightly darker background for even testimonials */
+  background-color: #e8e8e8;
 }
 
 .testimonials footer {
