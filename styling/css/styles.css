@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
   background-color: #ffffff;
   color: #000000;
   margin: 0;
@@ -27,6 +27,7 @@ header h1 {
   padding: 1rem;
   background-color: #f8f8f8;
   border: 0.0625rem solid #cccccc;
+  border-radius: 0.25rem; /* Add subtle rounded corners */
 }
 
 @media (max-width: 600px) {
@@ -95,11 +96,11 @@ li {
 
 a {
   color: #003366;
-  text-decoration: underline;
+  text-decoration: none; /* Remove underline */
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline; /* Add underline on hover */
 }
 
 .button {
@@ -125,8 +126,9 @@ a:hover {
   align-items: flex-start;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background-color: #f8f8f8;
+  background-color: #ffffff; /* White background */
   border: 0.0625rem solid #cccccc;
+  border-radius: 0.25rem; /* Add subtle rounded corners */
 }
 
 .profile-picture-container {
@@ -176,6 +178,14 @@ a:hover {
 
 .profile-details li {
   margin-bottom: 0.375rem;
+  position: relative;
+}
+
+.profile-details ul li .summary {
+  font-size: 0.875rem; /* Smaller font size */
+  color: #666666; /* Lighter color */
+  margin-top: 0.25rem; /* Add margin above the summary */
+  margin-left: 1.25rem; /* Indent the summary */
 }
 
 .focus-container {
@@ -200,6 +210,7 @@ a:hover {
   text-decoration: none;
   border: 0.0625rem solid #cccccc;
   font-size: 0.875rem;
+  border-radius: 0.25rem; /* Add subtle rounded corners */
 }
 
 .services ul {
@@ -232,6 +243,7 @@ a:hover {
   font-style: italic;
   background-color: #f8f8f8;
   border: 1px solid #cccccc;
+  border-radius: 0.25rem; /* Add subtle rounded corners */
 }
 
 .testimonials blockquote:nth-child(even) {
