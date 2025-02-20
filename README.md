@@ -1,1 +1,1 @@
-Navigate to [klekaelly.dev](https://klekaelly.dev/)
+Navigate to http://snoqualmievalleytutoring.com/
