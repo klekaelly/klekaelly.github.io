@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
   color: #000000;
   margin: 0;
@@ -9,19 +9,19 @@ body {
 }
 
 header {
-  background-color: #336699; /* Lighten the shade of blue */
+  background-color: #336699;
   color: #ffffff;
   text-align: center;
-  padding: 1.5rem 0; /* Increase padding */
-  border-bottom: 0.125rem solid #cccccc; /* Thinner border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-  border-radius: 0.25rem; /* Add subtle rounded corners */
-  margin-bottom: 1.5rem; /* Add margin at the bottom */
+  padding: 1.5rem 0;
+  border-bottom: 0.125rem solid #cccccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem; /* Increase font size */
+  font-size: 2.5rem;
 }
 
 .container {
@@ -30,7 +30,7 @@ header h1 {
   padding: 1rem;
   background-color: #f8f8f8;
   border: 0.0625rem solid #cccccc;
-  border-radius: 0.25rem; /* Add subtle rounded corners */
+  border-radius: 0.25rem;
 }
 
 @media (max-width: 600px) {
@@ -64,7 +64,7 @@ h6 {
 }
 
 h2 {
-  color: #336699; /* Lighten the shade of blue */
+  color: #336699;
   font-size: 1.5rem;
   border-bottom: 0.125rem solid #cccccc;
   padding-bottom: 0.125rem;
@@ -98,12 +98,12 @@ li {
 }
 
 a {
-  color: #336699; /* Lighten the shade of blue */
-  text-decoration: none; /* Remove underline */
+  color: #336699;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
 .button {
@@ -119,61 +119,60 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #336699; /* Lighten the shade of blue */
+  background-color: #336699;
 }
 
 .button-container {
   display: flex;
-  justify-content: center; /* Center the buttons horizontally */
-  gap: 1rem; /* Add space between the buttons */
-  margin-top: 1rem; /* Add margin on top */
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-/* About Section */
 .intro-text {
   display: flex;
-  flex-direction: row; /* Align items horizontally */
+  flex-direction: row;
   align-items: flex-start;
   margin-bottom: 1.5rem;
   padding: 1rem;
-  background-color: #ffffff; /* White background */
+  background-color: #ffffff;
   border: 0.0625rem solid #cccccc;
-  border-radius: 0.25rem; /* Add subtle rounded corners */
+  border-radius: 0.25rem;
 }
 
 .profile-picture-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 1rem; /* Add margin to the left */
+  margin-left: 1rem;
 }
 
 .intro-text img.profile-picture {
-  width: 6.25rem; /* 100px */
-  height: 6.25rem; /* 100px */
+  width: 6.25rem;
+  height: 6.25rem;
   border-radius: 50%;
   border: 0.0625rem solid #cccccc;
   object-fit: cover;
-  margin-bottom: 0.25rem; /* Reduce margin below the image */
+  margin-bottom: 0.25rem;
 }
 
 .intro-text h3.name {
-  color: #336699; /* Lighten the shade of blue */
-  font-size: 1rem; /* Smaller font size */
-  font-weight: normal; /* Normal font weight */
-  margin-top: 0.25rem; /* Add margin above the name */
-  margin-bottom: 0; /* Remove margin below the name */
-  text-align: center; /* Center align text */
+  color: #336699;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .profile-details {
   flex: 1;
   padding-right: 0.625rem;
-  text-align: left; /* Left align text */
+  text-align: left;
 }
 
 .profile-details h3 {
-  color: #336699; /* Lighten the shade of blue */
+  color: #336699;
   font-size: 1.25rem;
   margin: 0.5rem 0 0.25rem 0;
   padding-bottom: 0.125rem;
@@ -192,10 +191,10 @@ a:hover {
 }
 
 .profile-details ul li .summary {
-  font-size: 0.875rem; /* Smaller font size */
-  color: #666666; /* Lighter color */
-  margin-top: 0.25rem; /* Add margin above the summary */
-  margin-left: 1.25rem; /* Indent the summary */
+  font-size: 0.875rem;
+  color: #666666;
+  margin-top: 0.25rem;
+  margin-left: 1.25rem;
 }
 
 .focus-container {
@@ -215,12 +214,12 @@ a:hover {
   display: inline-block;
   margin-right: 1rem;
   padding: 0.3125rem 0.625rem;
-  background-color: #336699; /* Lighten the shade of blue */
+  background-color: #336699;
   color: #ffffff;
   text-decoration: none;
   border: 0.0625rem solid #cccccc;
   font-size: 0.875rem;
-  border-radius: 0.25rem; /* Add subtle rounded corners */
+  border-radius: 0.25rem;
 }
 
 .services ul {
@@ -233,7 +232,7 @@ a:hover {
 }
 
 .faq h3 {
-  color: #336699; /* Lighten the shade of blue */
+  color: #336699;
   font-size: 1.25rem;
   margin-top: 1rem;
 }
@@ -247,37 +246,22 @@ a:hover {
 }
 
 .testimonials blockquote {
-  border-left: 0.25rem solid #336699; /* Lighten the shade of blue */
-  padding-left: 1rem;
+  border-left: 0.25rem solid #336699;
+  padding: 1rem;
   margin: 1rem 0;
   font-style: italic;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   border: 1px solid #cccccc;
-  border-radius: 0.25rem; /* Add subtle rounded corners */
+  border-radius: 0.25rem;
 }
 
 .testimonials blockquote:nth-child(even) {
-  background-color: #e8e8e8;
+  background-color: #f0f0f0;
 }
 
 .testimonials footer {
   text-align: right;
   font-size: 0.875rem;
   color: #666666;
-}
-
-/* Calendly Widget Customization */
-.calendly-inline-widget {
-  border: 0.0625rem solid #cccccc; /* Add border */
-  border-radius: 0.25rem; /* Add subtle rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-  margin-top: 1rem; /* Add margin on top */
-  width: 100%; /* Ensure it takes up the full width */
-  overflow: hidden; /* Remove scrollbar */
-}
-
-.calendly-inline-widget iframe {
-  border-radius: 0.25rem; /* Add subtle rounded corners to iframe */
-  width: 100%; /* Ensure iframe takes up the full width */
-  height: 100%; /* Ensure iframe takes up the full height */
+  margin-top: 0.5rem;
 }
